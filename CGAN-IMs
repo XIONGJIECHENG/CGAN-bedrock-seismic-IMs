@@ -177,7 +177,6 @@ for epoch in range(epochs):
 # Save the generator and discriminator model parameters
 torch.save(generator.state_dict(), "generator_model0.2.pth")
 torch.save(discriminator.state_dict(), "discriminator_model0.2.pth")
-"""
 
 
 with torch.no_grad():
